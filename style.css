@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: rgb(242, 245, 247);
+    scroll-behavior: smooth;
+}
+.conta{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    color: black;
+    position: fixed;
+    overflow: hidden;
+}
+.conta h3{
+    margin-left: 8px;
+}
+#dp{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #00b7ff;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+#dp:hover{
+    transform: scale(1.2);
+}
+.nav{
+    width: 75%;
+    padding: 0px 50px 0px 0px;
+    gap: 60px;
+    display: flex;
+    justify-content: right;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+.nav a:hover{
+    color: #00b7ff;
+}
+.nav a.active{
+    color: #00b7ff;
+}
+.home{
+    height: auto;
+    width: 100%;
+    padding: 150px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+}
+.detail{
+    width: 50%;
+    text-align: center;
+}
+.detail h1{
+    line-height: 1.6;
+}
+.detail p{
+    color: #666;
+    font-size: large;
+    line-height: 1.4;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social a{
+    border-radius: 50%;
+}
+#log{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#log:hover{
+    transform: scale(1.2);
+}
+.pic{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.pic img{
+    height: 360px;
+    width: 360px;
+}
+
+.about{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.cool{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.me{
+    width: 50%;
+    padding: 60px;
+    text-align: left;
+}
+.para{
+    color: #666;
+    margin-top: 20px;
+    font-size: medium;
+}
+.para p{
+    line-height: 1.2;
+}
+.skill{
+    width: 50%;
+    padding: 60px;
+    text-align: left;
+}
+.kara{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.yo{
+    background-color: #cac8c8;
+    color: #666;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.project{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+.container{
+    width: 100%;
+}
+.card{
+    background-color: white;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.photo img{
+    border-radius: 16px; 
+    height: 300px;
+    width: 400px;
+    transition: 0.3s ease;
+}
+.bil{
+    padding: 20px 45px 20px 45px;
+    text-align: left;
+}
+.desc{
+    margin-top: 20px;
+}
+.desc p{
+    line-height: 1.5;
+}
+
+.contact{
+    margin-top: 90px;
+    text-align: center;
+    display: grid;
+}
+.send{
+    padding: 12px 0px 25px 0px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.struc{
+    display: grid;
+    width: 90%;
+    margin: auto;
+}
+#fil{
+    background-color: rgb(242, 242, 247);
+    padding: 10px 8px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+}
+#fill{
+    background-color: rgb(242, 242, 247);
+    padding: 10px 6px 50px 8px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+}
+.butt{
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #00b7ff;
+    color: white;
+    background-color: #00b7ff;
+    font-weight: bold;
+    font-size: medium;
+    transition: 0.5s ease;
+}
+.butt:hover{
+    transform: scaleX(0.96);
+}
+
+.footer{
+    padding: 50px 0px 30px 0px;
+    margin-top: 90px;
+    background-color: #101720;
+}
+.one{
+    padding: 0px 0px 50px 0px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    color: white;
+}
+.name{
+    padding: 0px 300px 0px 0px;
+    width: 70%;
+}
+.name p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.media{
+    width: 30%;
+}
+.sociality{
+    display: flex;
+    gap: 20px;
+}
+#dog{
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#dog:hover{
+    transform: scale(1.2);
+}
+.two{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+.two p{
+    color: white;
+    font-size: 11px;
+}
+.two a{
+    color: white;
+}
+@media (max-width:600px){
+    .nav{
+        display: none;
+    }
+    .home{
+        height: auto;
+        width: 100%;
+        padding: 120px 0px 50px 0px;
+        display: grid;
+        align-items: center;
+    }
+    .detail{
+        padding: 20px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .pic{
+        width: 100%;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .cool{
+        display: grid;
+    }
+    .me{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    .skill{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+    .card{
+        width: 80%;
+        display: grid;
+        padding: 22px 8px;
+    }
+    .photo img{
+        border-radius: 16px; 
+        height: 200px;
+        width: 90%;  
+    }
+    .bil{
+        padding: 10px 25px 10px 25px;
+    }
+    .send{
+        width: 80%;
+    }
+    .struc{
+        width: 80%;
+    }
+    .one{
+        display: grid;
+    }
+    .name{
+        padding: 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .media{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
