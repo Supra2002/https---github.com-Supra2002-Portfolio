@@ -17,6 +17,7 @@
     color: black;
     position: fixed;
     overflow: hidden;
+    z-index: 1;
 }
 .conta h3{
     margin-left: 8px;
@@ -26,7 +27,7 @@
     width: 30px;
     border: 2px solid #00b7ff;
     border-radius: 50%;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 #dp:hover{
     transform: scale(1.2);
@@ -43,7 +44,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 .nav a:hover{
     color: #00b7ff;
@@ -84,7 +85,7 @@
     width: 40px;
     border-radius: 50%;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 #log:hover{
     transform: scale(1.2);
@@ -139,6 +140,10 @@
     color: #666;
     padding: 8px 16px;
     border-radius: 4px;
+    transition: 0.3s ease;
+}
+.yo:hover{
+    transform: scale(1.1);
 }
 
 .project{
@@ -166,6 +171,9 @@
     height: 300px;
     width: 400px;
     transition: 0.3s ease;
+}
+.photo img:hover{
+    transform: scale(0.98);
 }
 .bil{
     padding: 20px 45px 20px 45px;
@@ -221,7 +229,7 @@
     background-color: #00b7ff;
     font-weight: bold;
     font-size: medium;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 .butt:hover{
     transform: scaleX(0.96);
@@ -260,7 +268,7 @@
     height: 30px;
     width: 30px;
     cursor: pointer;
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 #dog:hover{
     transform: scale(1.2);
